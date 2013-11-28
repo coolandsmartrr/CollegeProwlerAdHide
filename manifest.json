@@ -1,0 +1,20 @@
+{
+  "name": "CollegeProwler AdHide",
+  "description": "Removes ads from CollegeProwler",
+  "version": "2.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "24": "logo24.png",
+    "128": "logo128.png"
+  },
+  "browser_action": {
+    "default_title": "Remove ads from CollegeProwler"
+  },
+  "manifest_version": 2
+}
